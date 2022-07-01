@@ -1,10 +1,12 @@
 .form-page__navigator_bar div[class^='FormNavigatorBar_layout'] {
   background-color: #16151A !important;
+  border-bottom: 1px solid #666 !important;
 }
 
 .form-page__navigator ul[class^='FormNavigator_navigation'] {
   background-color: #16151A !important;
   border-bottom: 1px solid #383838 !important;
+  border-right: 1px solid #666 !important;
 }
 
 .field-group__container .field-group__layout {
@@ -47,5 +49,13 @@
 
 [class^='FieldTitle_layout'],
 [class^='FieldCollapse_title'] {
+  color: #FFF !important;
+}
+
+[class^='FieldCollapse_layout'] {
+  border-top: 1px solid #666 !important;
+}
+
+[class^='AttrButtonGroupRender_label'] {
   color: #FFF !important;
 }

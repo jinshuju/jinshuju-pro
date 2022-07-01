@@ -45,7 +45,7 @@
 }
 
 .dashboard2_sidebar {
-  border-right: 1px solid #555;
+  border-right: 1px solid #666 !important;
 }
 
 .nav-bar-tools .form-tools-title {
@@ -57,8 +57,12 @@
   color: #FFF !important;
 }
 
+.recommend-list-container .recommend-list {
+  border-top: 1px solid #666 !important;
+}
+
 header.new-header {
-  border-bottom: 1px solid #16151A !important;
+  border-bottom: 1px solid #666 !important;
   background-color: #383838 !important;
 }
 
