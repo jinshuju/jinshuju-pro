@@ -1,33 +1,30 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# jinshuju.pro
 
-## Getting Started
+让你的金数据，更加强大。
 
-First, run the development server:
+## 数据页面
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+快速过滤标签
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+将你常用的过滤条件保持为快速标签入口，一键进行数据视图切换。
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+## Dark mode
 
-## Making production build
+将金数据切换为夜间模式
 
-Run the following:
+![home](gh-pages/images/screenshot-darkmode-home.png)
 
-```bash
-pnpm build
-# or
-npm run build
-```
+![home](gh-pages/images/screenshot-darkmode-formbuilder.png)
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+## 更多功能
 
-## Submit to the webstores
+更多功能敬请期待
 
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/workflows#submit-your-extension) and you should be on your way for automated submission!
+## 作者
+
+* 邵司 @cedcn
+* 小考 @yee
+* 娟 @mj
+* 冯sir @flanker
+
