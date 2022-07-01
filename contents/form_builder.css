@@ -4,7 +4,7 @@
 
 .form-page__navigator ul[class^='FormNavigator_navigation'] {
   background-color: #16151A !important;
-  border-bottom: 1px solid #383838;
+  border-bottom: 1px solid #383838 !important;
 }
 
 .field-group__container .field-group__layout {
@@ -13,7 +13,7 @@
 
 .form-page__content div[class^='FormBuilderSettingPanel_layout'] {
   background-color: #16151A !important;
-  border-bottom: 1px solid #383838;
+  border-bottom: 1px solid #383838 !important;
 }
 
 [class^='TitleName_name'] {
