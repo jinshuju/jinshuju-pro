@@ -1,10 +1,10 @@
 .form-page__navigator_bar div[class^='FormNavigatorBar_layout'] {
-  background-color: #16151A !important;
+  background-color: #383838 !important;
   border-bottom: 1px solid #666 !important;
 }
 
 .form-page__navigator ul[class^='FormNavigator_navigation'] {
-  background-color: #16151A !important;
+  background-color: #383838 !important;
   border-bottom: 1px solid #383838 !important;
   border-right: 1px solid #666 !important;
 }
