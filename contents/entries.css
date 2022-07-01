@@ -1,7 +1,64 @@
-.record-btn {
+.gd-pro-record-btn {
   background-color: #333;
   border: 0;
   color: #fff;
   padding: 5px 10px;
   border-radius: 4px;
+  height: 40px;
+}
+
+.gd-pro-expand-btn {
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 70%;
+  width: 45px;
+  height: 45px;
+  border: 0;
+  background: #e46815;
+  color: #fff;
+  font-size: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.gd-pro-record-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6ccb0;
+  padding: 2 7px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.gd-pro-record-item a:first-child {
+  color: #000;
+}
+
+.gd-pro-record-item > a:first-child {
+  margin-right: 10px;
+}
+
+.gd-pro-list-root {
+  display: none;
+  padding: 15px;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 6px rgb(0 0 0 / 8%);
+  z-index: 999999;
+}
+
+body.gd-pro-list-expand .gd-pro-list-root {
+  display: flex;
+}
+
+body.gd-pro-list-expand .gd-pro-expand-btn {
+  left: 200px;
 }
