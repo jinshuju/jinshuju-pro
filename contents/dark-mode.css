@@ -1,0 +1,27 @@
+/* Dark Mode for all pages */
+html {
+  color-scheme: dark light;
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+svg {
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+img {
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+/* Excluding form thumbnail on home page */
+.thumbnail-view-layout div[class^='Form_block'] {
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+/* Excludin form builder canvas on form builder page */
+div[class^='FormBuilderLayout_inner'] {
+  filter: invert(1) hue-rotate(.5turn);
+}
+
+div[class^='FormBuilderLayout_inner'] img {
+  filter: unset;
+}
