@@ -3,6 +3,10 @@ import { useState } from "react"
 function IndexPopup() {
   const [data, setData] = useState("")
 
+  const websiteClicked = function() {
+    chrome.tabs.create({url: "https://jinshuju.pro"});
+  }
+
   return (
     <div
       style={{
@@ -11,9 +15,11 @@ function IndexPopup() {
         padding: 16
       }}>
       <h1>
-        Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
+        jinshuju.pro
       </h1>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
+      <a onClick={websiteClicked} href="https://jinshuju.pro">
+        visit our website.
+      </a>
     </div>
   )
 }
