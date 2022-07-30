@@ -4,11 +4,17 @@ html {
   filter: invert(1) hue-rotate(.5turn);
 }
 
-svg {
+svg,
+img,
+[style*='background:url'],
+[style*='background-image:url'],
+[style*='background: url'],
+[style*='background-image: url'],
+video {
   filter: invert(1) hue-rotate(.5turn);
 }
 
-img {
+iframe {
   filter: invert(1) hue-rotate(.5turn);
 }
 
@@ -22,6 +28,12 @@ div[class^='FormBuilderLayout_inner'] {
   filter: invert(1) hue-rotate(.5turn);
 }
 
-div[class^='FormBuilderLayout_inner'] img {
+div[class^='FormBuilderLayout_inner'] svg,
+div[class^='FormBuilderLayout_inner'] img,
+div[class^='FormBuilderLayout_inner'] [style*='background:url'],
+div[class^='FormBuilderLayout_inner'] [style*='background-image:url'],
+div[class^='FormBuilderLayout_inner'] [style*='background: url'],
+div[class^='FormBuilderLayout_inner'] [style*='background-image: url'],
+div[class^='FormBuilderLayout_inner'] video {
   filter: unset;
 }

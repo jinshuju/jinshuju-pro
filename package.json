@@ -1,9 +1,9 @@
 {
-  "name": "jinshuju-pro",
-  "displayName": "Jinshuju pro",
-  "version": "0.0.0",
-  "description": "A basic Plasmo extension.",
-  "author": "cedcn",
+  "name": "jinshuju.pro",
+  "displayName": "Jinshuju Pro",
+  "version": "0.0.1",
+  "description": "Jinshuju Pro Edition",
+  "author": "小金",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build"
@@ -28,7 +28,7 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*.jinshuju.net/*"
     ]
   }
 }
