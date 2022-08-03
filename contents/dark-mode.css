@@ -37,3 +37,16 @@ div[class^='FormBuilderLayout_inner'] [style*='background-image: url'],
 div[class^='FormBuilderLayout_inner'] video {
   filter: unset;
 }
+
+/* Excludes CKEditor toolbar */
+.ck-body-wrapper {
+  filter: invert(1) hue-rotate(.5turn);
+}
+.ck-body-wrapper svg {
+  filter: unset;
+}
+
+/* Excludes form builder preview page */
+div[class^='DesktopPreview_desktop-preview'] iframe {
+  filter: unset;
+}
